@@ -77,7 +77,15 @@ to update the central repository with our changes.
 
   - When you **clone** a repository, the command automatically adds that **remote repository** under the name `origin`.
 
-  - When you **fork** a repository,  it's good practice to regularly sync your fork with the upstream repository.
+  - When you **fork** a repository,  it's good practice to regularly sync your fork with the **upstream repository**. Otherwise, changes made to the original repository will not be propagated down to the copy on your GitHub account (the fork) or the clone of the fork on your local compute   r.
+
+  - You must configure a remote that points to the upstream repository in Git to sync changes you make in a fork with the original repository. This also allows you to sync changes made in the original repository with the fork.
+
+  - To summarise, you should connect the **fork** on your GitHub account to the original repository, and connect your local clone of the fork to *both* the fork and the upstream original repo.
+
+  - Recall that when you cloned the repository on your computer, the `git clone` command automatically added (linked) a remote repository called 'origin'.
+
+  - You should now add  *another* link to the original upstream repo called 'upstream'—
 
 
 
