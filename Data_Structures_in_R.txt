@@ -1,0 +1,12 @@
+# Data Structures in R
+
+
+1. R’s base data structures can be organised by their dimensionality (1d, 2d, or nd) and whether they’re homogeneous (all contents must be of the same type) or heterogeneous (the contents can be of different types).
+
+
+|    | Homogenous    | Heterogenous |
+|----|---------------|--------------|
+| 1D | Atomic Vector | List         |
+| 2D | Matrix        | Data frame   |
+| nD | Array         |              |
+
