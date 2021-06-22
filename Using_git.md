@@ -4,8 +4,6 @@
 
 2. Sign up for a GitHub account
 
-# Make sure that you can see invisible files in the Finder
-
 3. In your computer's **file browser** ensure that you can see:
   - **Invisible files and folders** (On the Mac these start with a period e.g. `.git`)
 
@@ -15,24 +13,27 @@
 
   - Many of the files that git needs to function are files that begin with a period which are **invisible files** on the Mac OS (operating system).
 
-4. Workflow:  Fork, Clone,
+# The GitHub Workflow for Repos that you don't own
+
+1. Workflow:  fork, clone, edit, commit, push, pull request
 
   - Start by **forking** (made an individual copy of) the  repo to your github.com account.
 
   - Now, you should **clone** the forked repo, i.e.g make a copy of it on your local computer.
 
-  - You can then add files and content to your local copy of the repo and committed the changes.
-We've pushed those changes back up to our forked repo on github.com.
-We've completed a Pull Request to update the central repository with our changes.
+  - You can then **edit** the files in your local copy of the repo and **commit** the changes.
+
+  - You can then **push** those changes back up to your forked repo on github.com.
+
+  - Finally, you can make a **pull request**
+to update the central repository with our changes.
 
 
-4. Cloning a repository from GitHub
+2. Cloning a repository from GitHub
 
   - A repository on GitHub exists as a **remote repository**.
 
-  - To work on the files on your own computer, you can **clone** the repository which creates a local copy on your computer.  
-
-  - You can then synchronize the files between the your computer and the remote repository on GitHub.
+  - To work on the files on your own computer, you should **clone** the repository which will create a local copy on your computer.  
 
   - To clone a repository, first find the **URL** for the repository on GitHub
 
@@ -42,50 +43,45 @@ We've completed a Pull Request to update the central repository with our changes
 
   - Once in that directory,  type `git clone https: [your_repository]`.  For example `git clone https://github.com/joannamorris/lab_tutorials.git`
 
-  - This creates a copy of the entire repository in your directory. Now you can edit the files without worrying about making a mistake messing up the files that are safely stored in the GitHub repo remotely in the cloud.
 
-  - When you are ready to add your changes, you must upload your changed files to the remote GitHub repository.
+3. A note on 'forking' vs 'cloning'
 
-5. Forking vs Cloning
+  - A **fork** is a copy of a repository that is on your GitHub account, as opposed to the account of the original repository owner.
 
-  - Like a clone, a **fork** is a copy of a repository that you manage, and that let you make changes to a project without affecting the original repository.
+  - When you 'fork' a repository, you clone a **remote** copy of the repository on your GitHub account.
 
-   - When you fork a repository, you create a copy of the original repository but the repository remains on your GitHub account.
+  - You can then make another clone of the forked repository on your local computer.
 
-   - The changes made in the cloned repository (on your local computer) are **pushed** (or uploaded) to the forked repository.
+  - When you edit files in the cloned repository  (on your local computer), you can **push** (or upload) the changes to the forked repository on your GitHub account.
 
-   - Changes made to the forked repository can be merged with the original repository via a **pull request** which is a request to the original the repository owner to merge your changes with (or **pull** your changes into) the original repository.
+  - These changes to the forked repository can be merged with the original repository via a **pull request** which is a request to the original the repository owner to merge your changes with (or **pull** your changes into) the original repository.
 
 
-   - Summary of the steps to add anything to the requisite github project:
+   - Summary of the steps to editing files in a github repositories that you don't onw:
 
-    - ***Step 1***: The user **forks** a repository to their own GitHub account.
+    - ***Step 1***: **Fork** a repository to your_repository own GitHub account.
 
-    - ***Step 2***: The user **clones** the repository to his or her local machine.
+    - ***Step 2***: **Clone** the repository to your local machine.
 
-    - ***Step 3***: The user edits the files and then **commits** these edits to the local repository. A contributor can apply a single commit or multiple commits to the repository. But everything happens on his or her local system.
+    - ***Step 3***: Edit the files and **commit** these edits to the local repository. You can apply a single commit or multiple commits to the repository. But everything happens on your local system.
 
-    - ***Step 4***: The user **pushes** the modifications to the upstream repository on his or her account (the fork).
+    - ***Step 4***: **Push** the modifications to the upstream repository on your account (the fork).
 
-    - ***Step 5***: The user sends a a request to the owner of the original repository to merge (pull) the changes into the main central repository.  This is a **pull request**.
+    - ***Step 5***: Send a request to the owner of the original repository to merge (pull) the changes into the main central repository.  This is a **pull request**.
 
-  B. Fetch and Rebase
-
-   - When you **fork** a repository,  it's good practice to regularly sync your fork with the upstream repository.
+# Linking local and remote repositories
 
    - Using the terminal, The `remote` command shows which remote repositories are currently connected to your local repository. It also allows you to add new connections or remove existing ones.
 
    - Each connection to your local repository has a *name* and a *URL*.
 
+  - When you **clone** a repository, the command automatically adds that **remote repository** under the name `origin`.
 
-  C. Linking local and remote repositories
-
-   - Linking your local repository (the one on your computer) to remote repositories on GitHub
-
-    - If you **clone** a repository, the command automatically adds that **remote repository** under the name `origin`.
+  - When you **fork** a repository,  it's good practice to regularly sync your fork with the upstream repository.
 
 
-   2. The git commands `fetch`, `pull`, `merge`, `push` and `sync`
+
+## The git commands `fetch`, `pull`, `merge`, `push` and `sync`
 
     - The command `git fetch origin` **fetches** any new work that has been **pushed** to that server since you **cloned** (or last **fetched** from) it.
 
@@ -101,7 +97,7 @@ We've completed a Pull Request to update the central repository with our changes
 
     - Git sync does everything in one command meaning pull and push read here
 
-   2. Branching
+# Branching
 
      - To view the branches in a Git repository, run the command `git branch`
 
@@ -119,9 +115,3 @@ We've completed a Pull Request to update the central repository with our changes
 
        `git branch BRANCH_NAME    # create a new branch`
        `git switch BRANCH_NAME    # then switch to the new branch`
-
-
-  C. How to open a pull request on GitHub.
-    1. **Pull requests**  are the outstanding features or fixes that people are currently working on.
-
-  D.
