@@ -85,7 +85,8 @@ to update the central repository with our changes.
 
   - Recall that when you cloned the repository on your computer, the `git clone` command automatically added (linked) a remote repository called 'origin'.
 
-  - You should now add  *another* link to the original upstream repo called 'upstream'—
+  - You should now add  *another* link to the original upstream repo called 'upstream' that will allow you to pull changes from the original repo
+`$ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 
 
 
