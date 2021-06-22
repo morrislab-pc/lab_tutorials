@@ -71,7 +71,7 @@ to update the central repository with our changes.
 
 # Linking local and remote repositories
 
-   - Using the terminal, The `remote` command shows which remote repositories are currently connected to your local repository. It also allows you to add new connections or remove existing ones.
+   - Using the terminal, The `remote` command shows which remote repositories are currently connected to your local repository.
 
    - Each connection to your local repository has a *name* and a *URL*.
 
@@ -91,6 +91,10 @@ to update the central repository with our changes.
 
 
 ## The git commands `fetch`, `pull`, `merge`, `push` and `sync`
+
+    - In git you are not supposed to commit work on remote branches (you are supposed to do your work on local branches)
+
+    - Remote branches should contain copies of commits coming from remotes, never commits created locally.
 
     - The command `git fetch origin` **fetches** any new work that has been **pushed** to that server since you **cloned** (or last **fetched** from) it.
 
