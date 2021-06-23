@@ -6,7 +6,7 @@ In depth explanations for each step can be found in *EEG Methods for the Psychol
     * File>Import Data>Using EEGlab functions and plugins>From Neuroscan .CNT file
       * Navigate to the One Drive for the lab and select the cnt file from the participant of interest. Click ‘Open’.
 
-#### Segmentation and Baseline Correction
+### Segmentation and Baseline Correction
 ##### Prepare the EEG structure for compatibility with ERPlab
 3. ERPLAB>Eventlist>Create EEG EVENTLIST
     * Click ‘CREATE’
@@ -26,7 +26,7 @@ In depth explanations for each step can be found in *EEG Methods for the Psychol
     * When the *EXTRACT BINEPOCHS GUI* appears, adjust the *Bin-based epoch time range* to ‘-200 1000’ and adjust the *Baseline Correction* to ‘Pre’. Then click ‘RUN’.
     * When the *Dataset info -- pop_newset()* dialog appears, click ‘Overwrite in memory’ and then click ‘Ok’.
 
-#### Artifact Rejection
+### Artifact Rejection
 ##### Detect segments containing artifacts with ERPlab
 7. ERPLAB>Artifact Detection in epoched data>Simple voltage threshold
     * When the *Extreme Values* dialog appears, adjust the voltage limits to ‘-100 100’. Set the *Channel(s)* field to ‘7:27’ and click ‘Accept’.
@@ -35,7 +35,7 @@ In depth explanations for each step can be found in *EEG Methods for the Psychol
     * Name the file in such a way as to indicate the stage of the data analysis
 
 Having removed potential artifacts, the next step is to compute the ERP from the sample of data segments
-#### Subject Averaging
+### Subject Averaging
 ##### Computing subject averages with ERPlab
 9. ERPLAB>Compute Averaged ERPs
     * When the *EEGSET -> ERPset Averager* dialog appears, select the option to ‘Exclude epochs marked during artifact detection’ and click ‘RUN’.
@@ -53,7 +53,7 @@ Repeat these steps for all individual datasets from each subject and condition b
 
 # Generating a Grand Average ERP
 One the pre-processing and erpset generation have been completed for all of the individual datasets, the ERPs from each subject and condition are averaged together to create a ‘grand-average’ ERP.
-#### Select the files to be averaged
+### Select the files to be averaged
 1. ERPLAB>Average Across ERPsets (Grand Average)
     * When the *GRAND AVERAGER GUI* appears, select the ‘From ERPset files’ option and click ‘Add Erpset’. This will open a file browser that can be used to navigate the directory containing the ERPset files created. Select all ERPs from the project of interest.
     * Select the ‘Compute point-by-point standard error of the mean’ option and leave all other default selections. Click ‘RUN’ to generate the grand average.
