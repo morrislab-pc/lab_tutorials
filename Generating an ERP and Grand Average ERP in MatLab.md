@@ -1,6 +1,6 @@
 # Generating an individual ERP in MatLab
 In depth explanations for each step can be found in *EEG Methods for the Psychological Sciences* beginning on page 68.
-#### Loading the Data
+### Loading the Data
 1. Invoke EEGlab in MatLab by typing eeglab at the command prompt and press enter
 2. When the EEGlab GUI appears, load a dataset
     * File>Import Data>Using EEGlab functions and plugins>From Neuroscan .CNT file
