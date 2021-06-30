@@ -19,7 +19,7 @@
 14. Attach the housing clip located on the splitter box to the cape to prevent any movement of the splitter box
 15. Turn on the actiCHamp
 16. Attach the splitter box to the actiCHAMP by clipping the belt to the top
-17. Plug the reference electrode into the opening at the front of the actiCHAMP labeled 'Ground'
+17. Plug the reference electrode into the opening at the front of the actiCHAMP labeled 'GND'
 18. Once the participant is comfortable begin injecting the gel
 
 ![Head labeled with Nasion and Inion](https://images.app.goo.gl/TTZxW93BkgPhpNEPA)
