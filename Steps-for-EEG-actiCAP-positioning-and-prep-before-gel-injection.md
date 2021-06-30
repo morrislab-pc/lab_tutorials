@@ -2,11 +2,11 @@
 1. Use the tape measure to measure the circumference around the head through the nasion and inion, but above the ears
 2. Choose a cap that is closest to the measured head circumference
 3. Help participants place the cap on their head
-  - Make sure the cap fits snug, but the participant is comfortable
+    - Make sure the cap fits snug, but the participant is comfortable
 
 4. Remove the cap from the participant and place it on the mannequin head once the right size is determined
 5. Carefully populate the chosen cap with electrodes
-  - done most easily while sitting down with the mannequin head between both legs and splitter box resting on the back with electrodes hanging over both shoulders
+    - done most easily while sitting down with the mannequin head between both legs and splitter box resting on the back with electrodes hanging over both shoulders
 
 6. Clean forehead with sterile alcohol prep wipe
 7. Measure the distance between the nasion and the inion over the top of the head
@@ -21,4 +21,5 @@
 16. Attach the splitter box to the actiCHAMP by clipping the belt to the top
 17. Plug the reference electrode into the opening at the front of the actiCHAMP labeled 'Ground'
 18. Once the participant is comfortable begin injecting the gel
-  ![Head labeled with Nasion and Inion](https://images.app.goo.gl/TTZxW93BkgPhpNEPA)
+
+![Head labeled with Nasion and Inion](https://images.app.goo.gl/TTZxW93BkgPhpNEPA)
