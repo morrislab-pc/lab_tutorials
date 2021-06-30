@@ -22,4 +22,4 @@
 17. Plug the reference electrode into the opening at the front of the actiCHAMP labeled 'GND'
 18. Once the participant is comfortable begin injecting the gel
 
-![Head labeled with Nasion and Inion](https://images.app.goo.gl/TTZxW93BkgPhpNEPA)
+![Head labeled with Nasion and Inion](https://raw.githubusercontent.com/morrislab-pc/lab_tutorials/main/Images/4CFB24D9-797E-4E86-A8F6-B8FE8A086973_4_5005_c.jpeg)
