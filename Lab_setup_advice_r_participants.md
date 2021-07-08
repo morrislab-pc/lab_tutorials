@@ -1,4 +1,4 @@
-#Setting Up a Lab (according to Luck)
+# Setting Up a Lab (according to Luck)
 **Why is keeping participants happy crucial?**
 It is important to keep subjects awake, happy, and relaxed as it can affect your
 data (ex: alpha waves will show up in eeg recordings if participants are tired)
